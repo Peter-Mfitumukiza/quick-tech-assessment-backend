@@ -107,9 +107,9 @@ Expected CSV columns:
 
 ```csv
 product_name,category,price,quantity,sold_at
-Laptop Pro,Electronics,1299.99,2,2024-01-15
-Wireless Mouse,Electronics,29.99,5,2024-01-15
-Coffee Mug,Kitchen,12.50,3,2024-01-16
+Laptop Pro,Electronics,1299.99,2,2025-08-15
+Wireless Mouse,Electronics,29.99,5,2025-08-15
+Coffee Mug,Kitchen,12.50,3,2025-08-16
 ```
 
 ## API Usage Examples
@@ -242,5 +242,5 @@ View and manage:
 
 - **Framework**: Django 4.2+ with Django REST Framework
 - **Authentication**: JWT via SimpleJWT
-- **Database**: SQLite (development), easily configurable for PostgreSQL/MySQL
+- **Database**: SQLite 
 - **Data Processing**: Pandas for CSV handling
